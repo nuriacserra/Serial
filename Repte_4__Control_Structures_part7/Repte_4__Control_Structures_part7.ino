@@ -1,9 +1,35 @@
-void setup() {
-  // put your setup code here, to run once:
+/********************************************************************************************************
+ **
+ **                           Control Structures 
+ *                             Part 7 
+ **                            
+ **                            
+ **   Nom: Núria Cordero Serra               Date: 11/01/2017
+ *********************************************************************************************************/
+//****************************Include**********************************
 
+
+//****************************Variables********************************
+
+int comptar = 11;
+
+//****************************Setup************************************
+void setup() 
+{
+  Serial.begin(9600);
+  
+  Serial.print("Ara comptare de 0 a ");
+  Serial.println(comptar);
+  for (int i=0; i < comptar; i++)
+  {
+    Serial.print(i);
+    Serial.print("-");
+  }
+  Serial.print(comptar);
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
-
+//***************************Loop**************************************
+void loop()  
+{
 }
+//***************************Funcions**********************************
