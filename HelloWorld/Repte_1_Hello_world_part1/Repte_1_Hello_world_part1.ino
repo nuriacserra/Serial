@@ -13,7 +13,7 @@ void setup ()
 { 
   Serial.begin(9600);
   Serial.println( " Hello World !");
-  Serial.println (" hola que hace");
+  Serial.print (" hola que hace");
 }
 //***************************Loop**************************************
 void loop ()
